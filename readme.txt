@@ -1,9 +1,26 @@
-This is a Google Chrome extension developed to click automatically the "Skip Ad" button by querying it every 100 milliseconds using the setInterval() function.
-This allows the code to check if the "Skip Ad" button exists and click it before the countdown timer reaches 0 (this is very fast you almost cannot see when an add was started.)
+Google Chrome extension developed to click automatically the "Skip Ad" button before the countdown timer reaches 0. 
+This is very fast, you cannot see when an add is started and in the same time it is not against the YouTube terms of service.
+Furthermore this is possible by querying the button every 100 milliseconds using the setInterval() function.
+Hence, it allows the code to check if the "Skip Ad" button exists and click it immediately when it appears.
 setInterval() is a JavaScript function that executes a function or code snippet at a specified interval (in milliseconds). 
 In this case, the function queries the "Skip Ad" button every 100 milliseconds and clicks it, if it is found.
-Please beware that this automation may not be in accordance to the YouTube terms of service and your account can be banned, however my account is still not suspended.
-There is also a commented code in the content.js file which will automatically click the button after the interval reaches zero which should be in accordance with the YouTube terms of service,
-you can use it instead of the other one.
+
+To use the extension execute the following steps:
+
+1. Open the Chrome browser on your computer.
+
+2. Click on the three dots in the top-right corner of the window to open the Chrome menu.
+
+3. Click on "More tools" and then select "Extensions" from the drop-down menu.
+
+4. In the extensions page, click on the "Load unpacked" button.
+
+5. In the file explorer window that appears, navigate to the folder where you saved the extension files and select it.
+
+6. The extension will now be installed in your browser, and you should see it listed under "Extensions" in the Chrome menu.
+
+7. To use the extension, simply click on its icon in the browser toolbar. The extension should now be able to perform the tasks it was programmed to do.
+
+
 Enjoy! :)
                                                                                                                                                                                              D.G.

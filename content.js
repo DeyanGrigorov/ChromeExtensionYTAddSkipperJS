@@ -8,7 +8,7 @@ setInterval(() => {
       if (button) {
         // Click the button
         button.click();
-        console.log('it was clicked!')
+        console.log('Button was clicked!')
       }
     }
   }, 100);
